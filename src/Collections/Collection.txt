@@ -1,0 +1,37 @@
+* 컬렉션 프레임워크 핵심 인터페이스와 특징
+    - List => 순서가 있는 데이터의 집합 / 데이터 중복 허용
+    - Set => 순서를 유지하지 않는 데이터의 집합 / 데이터 중복 허용X
+    - Map => 키와 값의 쌍으로 이루어진 데이터의 집합 / 순서 유지X 키 중복 허용X 값 중복 허용
+
+* List Interface
+    - void add(int index, Object element) / boolean addAll(int index, Collection c)
+    - Object get(int index)
+    - int indexOf(Object o)
+    - int lastIndexOf(Object o)
+    - ListIterator listIterator() / ListIterator listIterator(int index)
+    - Object remove(int index)
+    - Object set(int index, Object element)
+    - void sort(Comparator c)
+    - List subList(int fromIndex, int toIndex)
+
+* Map Interface
+    - void clear()
+    - boolean containsKey(Object key)
+    - boolean containsValue(Object value)
+    - Set entrySet()
+    - boolean equla(Object o)
+    - Object get(Object o)
+    - int hashCode()
+    - boolean isEmpty()
+    - Set keySet()
+    - Object put(Object key, Object value)
+    - void pullAll(Map t)
+    - Object remove(Object key)
+    - int size()
+    - Collection values()
+    *Map.Entry Interface
+        - boolean equals(Object o)
+        - Object getKey()
+        - Object getValue()
+        - int hashCode()
+        - Object setValue(Object value)
