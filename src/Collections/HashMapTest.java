@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 //Hash는 10 12 20 22라고 했을때 1 과 2를 해시하여 분류 후 저장을 하여 빠른 검색을 할 수 있게 해줌
+//TreeMap은 범위검색 정렬, HashMap은 검색이 뛰어남
 public class HashMapTest {
     public static void main(String[] args) {
         HashMap map = new HashMap();
