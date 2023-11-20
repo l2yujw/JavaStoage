@@ -35,3 +35,9 @@
         - Object getValue()
         - int hashCode()
         - Object setValue(Object value)
+
+ArrayList -(추가, 삭제기능 향상)> LinkedList(->HashMap&TreeMap) -> Queue
+                                                             -(검색, 범위검색, 정렬기능 향상)> TreeMap -> TreeSet
+          -(검색기능 향상)> HashMap   -> Properties
+                                    -(순서유지 기능향상)-> LinkedHashMap
+                                    -> HashSet -(순서유지 기능향상)> LinkedHashSet
