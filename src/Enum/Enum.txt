@@ -1,0 +1,16 @@
+* 서로 관련된 상수를 편리하게 선언하기 위한 것
+    class Card {
+        static final int CLOVER = 0;
+        static final int HEART = 1;
+        static final int DIAMOND = 2;
+        static final int SPADE = 3;
+
+        final int kind;
+
+    }
+    =>
+    class Card {
+        enum Kind { CLOVER, HEART, DIAMOND, SPADE}
+
+        final Kind kind;
+    }
