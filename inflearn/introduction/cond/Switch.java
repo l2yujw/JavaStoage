@@ -1,4 +1,4 @@
-package Cond;
+package cond;
 
 /*
     자바 14이상

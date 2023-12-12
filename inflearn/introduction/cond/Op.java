@@ -1,4 +1,4 @@
-package Cond;
+package cond;
 
 public class Op {
     public static void main(String[] args) {
