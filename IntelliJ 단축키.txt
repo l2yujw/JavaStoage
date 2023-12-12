@@ -1,0 +1,13 @@
+    @ ctl+d (MAC Command + d)
+        - 아래 복사
+
+    @ = 뒤의 코드 작성 후 ctrl+alt+v 누르면 그에 맞는 변수 타입을 생성해줌 (MAC Option+Command+V)
+        ex) "hello".equlas("hello"); => boolean hello ~~
+
+    @ ctrl+shift+enter (MAC shift+command+enter)
+        - 코드 끝에 세미콜론을 넣어줌
+
+    @ ctrl+shift+f10 (MAC ctrl+shift+r)
+        - Run Configure 생성 후 컴파일
+
+    @ ctrl+x => ctrl+v 잘라서 붙여넣기 (MAC Command+x)
