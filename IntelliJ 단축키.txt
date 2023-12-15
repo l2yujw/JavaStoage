@@ -16,3 +16,6 @@
 
     @ ctrl+b (MAC command b)
         - 해당 메서드로 이동함
+
+    @ iter
+        - for-each 자동완성
