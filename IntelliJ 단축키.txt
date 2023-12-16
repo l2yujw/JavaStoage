@@ -26,5 +26,5 @@
     @ ctrl + p (MAC command + p)
         - 빨간줄 뜰때 문제점을 보여줌
 
-    @ alt + insert
-        -
+    @ alt + insert (command n)
+        - Generate
