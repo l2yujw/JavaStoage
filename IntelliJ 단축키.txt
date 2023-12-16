@@ -19,3 +19,6 @@
 
     @ iter
         - for-each 자동완성
+
+    @ ctrl + alt + v (MAC alt+command+v)
+        -> 뒷 내용에 대한 데이터타입과 변수명을 나타내줌
