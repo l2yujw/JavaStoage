@@ -22,3 +22,9 @@
 
     @ ctrl + alt + v (MAC alt+command+v)
         -> 뒷 내용에 대한 데이터타입과 변수명을 나타내줌
+
+    @ ctrl + p (MAC command + p)
+        - 빨간줄 뜰때 문제점을 보여줌
+
+    @ alt + insert
+        -
