@@ -28,3 +28,6 @@
 
     @ alt + insert (command n)
         - Generate
+
+    @ ctrl + o
+        - 오버라이딩 보여줌
