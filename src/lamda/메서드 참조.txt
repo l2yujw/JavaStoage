@@ -1,0 +1,7 @@
+Functional<String, Integer> f =(String s) -> Integer.parseInt(s)
+Functional<String, Integer> f = Integer::parseInt
+
+        종류                              람다                      메서드참조
+    static메서드 참조            (x)->ClassName.method(x)        ClassName::method
+    인스턴스메서드 참조           (obj,x)->obj.method(x)           ClassName::method
+    특정 객체 인스턴스메서드 참조   (x)->obj.method(x)              obj::method
